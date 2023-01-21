@@ -1,0 +1,23 @@
+* {
+    font: arial
+}
+
+table, th, td {
+    border: 1px solid;
+  }
+
+th {
+  background-color: skyblue;
+  color: coral;
+}
+
+h2 {
+    color: coral;
+    text-align: center;
+  }
+
+h4 {
+    color: black;
+    text-align: left;
+  }
+
