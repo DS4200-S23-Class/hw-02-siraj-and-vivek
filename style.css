@@ -33,3 +33,23 @@ img {
   width: 100%;
   height: auto;
 }
+
+.decoration {
+    vertical-align: : middle;
+  display: flex;
+   text-align:center;
+  justify-content: space-between; /* this will center the shapes horizontally */
+}
+
+svg {
+  margin: 0 auto; /* this will center the shapes vertically */
+}
+
+rect:hover {
+  fill: black; /* this will change the color of the rectangle on hover */
+}
+
+circle:hover {
+  stroke: orange;
+  stroke-width: 4;/* this will add a border to the circle on hover */
+}
