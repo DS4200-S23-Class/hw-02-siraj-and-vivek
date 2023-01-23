@@ -16,6 +16,11 @@ h2 {
     text-align: center;
   }
 
+h3 {
+    font-size: 14px;
+    text-align: center;
+  }
+
 h4 {
     color: black;
     text-align: left;
@@ -29,27 +34,32 @@ h4 {
   flex: 1; 
 }
 
+.text {
+  text-align: left;
+  color: coral;
+  font: Trebuchet MS;
+}
+
 img {
   width: 100%;
   height: auto;
 }
 
 .decoration {
-    vertical-align: : middle;
   display: flex;
-   text-align:center;
-  justify-content: space-between; /* this will center the shapes horizontally */
+  justify-content: space-evenly;
+    
 }
 
 svg {
-  margin: 0 auto; /* this will center the shapes vertically */
+  margin: 0 auto; 
 }
 
 rect:hover {
-  fill: black; /* this will change the color of the rectangle on hover */
+  fill: black; 
 }
 
 circle:hover {
   stroke: orange;
-  stroke-width: 4;/* this will add a border to the circle on hover */
+  stroke-width: 4;
 }
