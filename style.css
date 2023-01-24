@@ -32,6 +32,7 @@ h4 {
 
 .left-column, .right-column {
   flex: 1; 
+  text-align: center;
 }
 
 .text {
@@ -40,20 +41,22 @@ h4 {
   font: Trebuchet MS;
 }
 
+.decoration {
+  display: flex;
+  justify-content: space-between;
+}
+
+.shape {
+  display: flex;
+  padding-right: 30px;
+  justify-content: space-between;
+}
+
 img {
   width: 100%;
   height: auto;
 }
 
-.decoration {
-  display: flex;
-  justify-content: space-evenly;
-    
-}
-
-svg {
-  margin: 0 auto; 
-}
 
 rect:hover {
   fill: black; 
