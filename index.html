@@ -46,23 +46,34 @@
             <h2>Data Types</h2>
             <h4>Airports</h4>
                 <ul>
-                    <li>Airport Name: String</li>
-                    <li>Latitude: List[integers]</li>
-                    <li>Longitude: List[integers]</li>
+                    <li>Airport dataset type is geometry </li>
+                    <li>Row == item</li>
+                    <li>airport_name == attribute</li>
+                    <li>airport_name attribute is categorical</li>
+                    <li>latitude == position</li>
+                    <li>longitude == position</li>
                 </ul>
             <h4>Google-Web</h4>
                 <ul>
-                    <li>Airport Name: String</li>
-                    <li>Latitude: List[integers]</li>
+                    <li>google-web dataset type is network </li>
+                    <li>Row == item</li>
+                    <li>FromeNodeId == link</li>
+                    <li>ToNodeId == link</li>
                 </ul>
             <h4>UFO</h4>
                 <ul>
-                    <li>Datetime: DateTime object</li>
-                    <li>City: String</li>
-                    <li>State: String</li>
-                    <li>Country: String</li>
-                    <li>Shape: String</li>
-                    <li>Duration: integer</li>
+                    <li>UFO dataset type is Table </li>
+                    <li>Row == item</li>
+                    <li>datetime == attribute</li>
+                    <li>datetime attribute is ordinal</li>
+                    <li>city == attribute</li>
+                    <li>city attribute is categorical</li>
+                    <li>state == attribute</li>
+                    <li>state attribute is categorical</li>
+                    <li>shape == attribute</li>
+                    <li>shape attribute is categorical</li>
+                    <li>duration == attribute</li>
+                    <li>state attribute is quantitative</li>
                 </ul>
         </div>
 
@@ -76,12 +87,12 @@
         <div class="container">
             <div class="left-column">Visualization 1
                 <img src="https://github.com/DS4200-S23-Class/hw-02-siraj-and-vivek/blob/master/img/vis1.png?raw=true" alt="vis1">
-                <p class="text"> The High level is present, showing the daily max temperatures across several years. The medium level is lookup because the target of the last 3 days is known and the location is known. The low level is identify, hihglighting specific data points. 
+                <p class="text"> The High level is present, showing the daily max temperatures across several years. The medium level is locate because the target location is unknown. The low level is identify, hihglighting specific data points. The target is outliers.
                 </p>
             </div>
             <div class="right-column">Visualization 2
                 <img src="https://github.com/DS4200-S23-Class/hw-02-siraj-and-vivek/blob/master/img/vis2.png?raw=true" alt="vis1">
-                <p class="text"> The High level is present, showing specific metrics for the two cities. The medium level is lookup because the target and location of the two cities are known. The low level is compare. 
+                <p class="text"> The High level is present, showing specific metrics for the two cities. The medium level is browse. The low level is compare. The target is distribution.
                 </p>
             </div>
         </div>
